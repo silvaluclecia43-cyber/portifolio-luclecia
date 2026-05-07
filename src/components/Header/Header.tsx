@@ -20,7 +20,7 @@ export default function Header() {
 
         <ul className={styles.nav}>
           <li>
-            <a className={styles.link} href="#intro">
+            <a className={styles.link} href="#about">
               Sobre mim
             </a>
           </li>
