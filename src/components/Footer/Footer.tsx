@@ -1,9 +1,35 @@
 import styles from "./styles.module.css";
+import { FaInstagram, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <>
-      <h1>rodapé</h1>
-    </>
+    <footer className={styles.footer}>
+      <div className={styles.container}>
+        <p className={styles.text}>
+          Feito com
+          <span className={styles.heart}> ❤ </span>
+          por <strong>Luclecia Silva</strong>
+        </p>
+
+        <div className={styles.socials}>
+          <a href="#" target="_blank">
+            <FaInstagram />
+          </a>
+          <a href="#" target="_blank">
+            <FaGithub />
+          </a>
+          <a href="#"target="_blank">
+            <FaWhatsapp />
+            </a>
+            <a href="#">
+              <FaEnvelope />
+          </a>
+        </div>
+
+        <p className={styles.copy}>
+           ©  {new Date().getFullYear()} - todos os direitos reservados
+        </p>
+      </div>
+    </footer>
   );
 }

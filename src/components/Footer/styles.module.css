@@ -1,0 +1,64 @@
+.footer {
+  backdrop-filter: blur(6px);
+  border-top: 1px solid rgba(0, 212, 255, 0.15);
+  padding: 1.2rem 1rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.text {
+  color: black;
+  font-size: 0.95rem;
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+.heart {
+  color: #1b0308;
+  margin: 0 0.3rem;
+  animation: pulse 1 0.5s infinite;
+}
+
+/* animação leve no coração */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* redes sociais */
+.socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socials a {
+  font-size: 1.3rem;
+  color: #1b0308;
+  transition:
+    0,
+    3s ease;
+}
+
+.socials a:hover {
+  transform: translateY(-3px) scale(1.1);
+  color: black;
+}
+
+.copy {
+  font-size: 0.8rem;
+  color: black;
+}

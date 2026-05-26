@@ -1,0 +1,56 @@
+.grid {
+  font-family: "open Sans", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  padding: 4rem 2rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+  transition: 0.3s ease;
+  box-shadow:
+    0 0 20px rgba(0, 110, 255, 0.2),
+    0 10px 20px rgb(0, 0, 0, 0.2);
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 0 30px rgba(8, 11, 15, 0.5),
+    0 15px 30px rgba(0, 0, 0, 0.3);
+}
+/* Icone */
+.icon {
+  font-size: 2rem;
+  color: #a99748;
+  margin-bottom: 1rem;
+
+  transition: 0.3s;
+}
+
+.card:hover .icon {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.cardTitle {
+  color: black;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.cardText {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}

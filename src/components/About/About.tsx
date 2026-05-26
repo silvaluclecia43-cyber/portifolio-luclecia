@@ -6,16 +6,18 @@ export default function About() {
       <div className={styles.container}>
         <h2 className={styles.title}>Sobre Mim</h2>
         <p className={styles.text}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit . Nobis,
-          cumque. Minus architecto ullam eos delectus qui voluptatum, quidem aut
-          pariatur at tenetur consequatur laborum asperiores perferendis beatae.
-          Ab , repellat maiores?
+          Sou desenvolvedora web focada na criação de interfaces modernas,
+          responsivas e intuitivas. Tenho interesse em desenvolver experiências
+          digitais que unam estética, funcionalidade e desempenho, sempre
+          buscando escrever códigos organizados e manter uma boa experiência
+          para o usuário em diferentes dispositivos.
         </p>
         <p className={styles.text}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit . Molestias
-          animi , ex eos nemo corporis dolorem iusto maxime quaerat facere
-          ratione sint dicta laborum aperiam incidunt , facilis optio minus rem
-          odio!
+          Estou constantemente aprendendo novas tecnologias e aprimorando minhas
+          habilidades no desenvolvimento frontend. Gosto de transformar ideias
+          em projetos reais, explorando criatividade, atenção aos detalhes e
+          soluções que tornem cada aplicação mais dinâmica, acessível e
+          eficiente.
         </p>
       </div>
     </section>
