@@ -1,5 +1,6 @@
 import styles from "./styles.module.css";
-import { useTypewriter} from "../../hooks/useTypewriter";
+import { useTypewriter } from "../../hooks/useTypewriter";
+import minhaImagem from "../../assets/img/about-us.svg";
 
 export default function Hero() {
   const typedText = useTypewriter(["Node", "React", "TypeScript"]);
@@ -8,15 +9,16 @@ export default function Hero() {
     <section className={styles.section}>
       <div>
         <h2 className={styles.title}>
-           Desenvolvedora<br />
+          Desenvolvedora
+          <br />
           <span className={styles.highlight}>{typedText}</span>
         </h2>
         <p className={styles.text}>
           Transformando ideias em soluções digitais.
         </p>
       </div>
-      <div className={styles.editImage}>
-        <span>Minha imagem</span>
+      <div>
+        <img src={minhaImagem} alt="Minha imagem" className={styles.image} />
       </div>
     </section>
   );
