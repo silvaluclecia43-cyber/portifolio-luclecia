@@ -10,12 +10,12 @@ export default function Contact() {
 
           <p className={styles.text}>
             Entre em contato comigo através das redes sociais abaixo. seja para
-            projetos ,dúvidas ou trocar ideias.
+            projetos, dúvidas ou trocar ideias.
           </p>
 
           <div className={styles.links}>
             <a
-              href="#"
+              href="https://www.instagram.com/luclecia_s20?igsh=cXVwODRnOG04MGJ2"
               target="_blank"
               className={`${styles.button} ${styles.instagram}`}
             >
@@ -23,7 +23,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="#"
+              href="https://github.com/silvaluclecia43-cyber"
               target="blank"
               className={`${styles.button} ${styles.github}`}
             >
@@ -38,7 +38,7 @@ export default function Contact() {
               <FaWhatsapp /> whatsapp
             </a>
 
-            <a href="#" className={`${styles.button} ${styles.email}`}>
+            <a href="mailto:silvaluclecia43@gmail.com" className={`${styles.button} ${styles.email}`}>
               <FaEnvelope /> Email
             </a>
           </div>

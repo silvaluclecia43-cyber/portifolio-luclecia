@@ -12,22 +12,22 @@ export default function Footer() {
         </p>
 
         <div className={styles.socials}>
-          <a href="#" target="_blank">
+          <a href="https://www.instagram.com/luclecia_s20?igsh=cXVwODRnOG04MGJ2" target="_blank">
             <FaInstagram />
           </a>
-          <a href="#" target="_blank">
+          <a href="https://github.com/silvaluclecia43-cyber" target="_blank">
             <FaGithub />
           </a>
-          <a href="#"target="_blank">
+          <a href="#" target="_blank">
             <FaWhatsapp />
-            </a>
-            <a href="#">
-              <FaEnvelope />
+          </a>
+          <a href="mailto:silvaluclecia43@gmail.com">
+            <FaEnvelope />
           </a>
         </div>
 
         <p className={styles.copy}>
-           ©  {new Date().getFullYear()} - todos os direitos reservados
+          © {new Date().getFullYear()} - todos os direitos reservados
         </p>
       </div>
     </footer>
