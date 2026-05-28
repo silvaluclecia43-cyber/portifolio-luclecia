@@ -18,7 +18,7 @@ export default function Footer() {
           <a href="https://github.com/silvaluclecia43-cyber" target="_blank">
             <FaGithub />
           </a>
-          <a href="#" target="_blank">
+          <a href="https://w.app/lucleciasilva" target="_blank">
             <FaWhatsapp />
           </a>
           <a href="mailto:silvaluclecia43@gmail.com">

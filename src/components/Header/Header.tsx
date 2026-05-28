@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,21 +17,42 @@ export default function Header() {
   return (
     <header className={`${styles.menu} ${scrolled ? styles.small : ""}`}>
       <div className={styles.content}>
-        <h1 className={styles.logo}>LUCLECIA SILVA</h1>
+        <a className={styles.link} onClick={() => setOpen(false)} href="#home">
+          <h1 className={styles.logo}>Luclecia Silva</h1>
+        </a>
 
-        <ul className={styles.nav}>
+        {/* BOTÃO HAMBURGUER */}
+        <div className={styles.hamburger} onClick={() => setOpen(!open)}>
+          ☰
+        </div>
+
+        {/* MENU */}
+        <ul className={`${styles.nav} ${open ? styles.open : ""}`}>
           <li>
-            <a className={styles.link} href="#about">
-              Sobre mim
+            <a
+              className={styles.link}
+              onClick={() => setOpen(false)}
+              href="#about"
+            >
+              Sobre
             </a>
           </li>
           <li>
-            <a className={styles.link} href="#skills">
+            <a
+              className={styles.link}
+              onClick={() => setOpen(false)}
+              href="#skills"
+            >
               Habilidades
             </a>
           </li>
+
           <li>
-            <a className={styles.link} href="#contact">
+            <a
+              className={styles.link}
+              onClick={() => setOpen(false)}
+              href="#Contact"
+            >
               Contatos
             </a>
           </li>
